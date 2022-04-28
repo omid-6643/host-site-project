@@ -1,0 +1,6 @@
+BREAK POINT
+extra small => xs => <576px
+small => sm => >=576px
+medium => md => >=768px
+larg => lg =>  >= 992px
+extra larg => xl => >1200px
