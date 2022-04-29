@@ -9,47 +9,45 @@
     />
     <link rel="stylesheet" href="./styles/normaliz.css" />
     <link rel="stylesheet" href="./styles/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="styles/customStyles.css">
     <link rel="stylesheet" href="./styles/app.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
     <title>Hosting Page</title>
   </head>
   <body>
-    <div class="container">
-      <div class="content" style="margin-bottom: 10px"></div>
-
-      <div class="row">
-        <div class="col-6"><div class="content"></div></div>
-        <div class="col-6"><div class="content"></div></div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <div class="flex-items">
-            <div class="flex-item"></div>
-            <div class="flex-item"></div>
-            <div class="flex-item"></div>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <div class="logo-wrapper">
+            <img src="./images/logo.png" alt="logo" class="logo-img" />
           </div>
-        </div>
-        <div class="col-12 col-md-6 "><div class="content"></div></div>
-      </div>
 
-      <div class="row">
-        <div class="col-12 col-sm-6"><div class="content"></div></div>
-        <div class="col-12 col-sm-6"><div class="content"></div></div>
+          <ul class="main-menu">
+            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Services</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Our Planes</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Tools & Recourses</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link login-btn"
+                >Login <span><i class="fa fa-user"></i></span
+              ></a>
+            </li>
+          </ul>
+          <a class="fa fa-bars menu-icon"></a>
+        </nav>
       </div>
-
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3" ><div class="content" style="background-color: brown;"></div></div>
-        <div class="col-12 col-md-6 col-lg-3" ><div class="content" style="background-color: brown;"></div></div>
-        <div class="col-12 col-md-6 col-lg-3" ><div class="content" style="background-color: brown;"></div></div>
-        <div class="col-12 col-md-6 col-lg-3" ><div class="content" style="background-color: brown;"></div></div>
-      </div>
-
-      <div class="row">
-        <div class="col-12"><div class="content"></div></div>
-      </div>
-    </div>
+    </header>
 
     <script src="./scripts/app.js"></script>
   </body>
