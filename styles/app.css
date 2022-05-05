@@ -24,7 +24,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100vh;
+  height: 757px;
 }
 
 .nav {
@@ -113,12 +113,16 @@ header {
   font-family: "Nunito ExtraBold";
   color: #2e2e2e;
   margin: 0;
+  text-align: center;
+  font-size: 30px;
 }
 
 .section-caption {
   color: #2e2e2e;
   margin-top: 10px;
   opacity: 0.8;
+  text-align: center;
+  font-size: 22px;
 }
 /* =============== services main ===============  */
 
@@ -133,7 +137,8 @@ header {
 }
 
 .service img {
-  margin-right: 20px;
+  margin-right: 22px;
+  width: 60px;
 }
 
 .services div.row {
@@ -153,15 +158,23 @@ header {
 .service-content p {
   opacity: 0.8;
   color: #2e2e2e;
-  line-height: 25px;
+  line-height: 28px;
   font-size: 17px;
   max-width: 430px;
 }
 
 /*! ============================== start section ============================== */
+.start .row .col-12 {
+  margin-bottom: 25px;
+}
+
 .start {
   background-color: #f7f8ff;
   padding: 70px 0;
+}
+
+.start .row {
+  margin-top: 80px;
 }
 
 .start-box {
@@ -204,8 +217,8 @@ header {
 
 .start-img-fix {
   position: absolute;
-  right: 30px;
-  top: 30px;
+  right: 15px;
+  top: 15px;
   max-width: 220px;
 }
 
