@@ -237,4 +237,78 @@ header {
 .start-logo-2 {
   background-color: #9dadff;
 }
+
+/* =============== plans main ===============  */
+
+.plans {
+  padding: 70px 0;
+}
+
+.plans .row {
+  margin-top: 80px;
+}
+
+.plan {
+  color: #2e2e2e;
+  text-align: center;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.144);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.plan:hover .plan-bottom {
+  height: 239px;
+}
+.plan:hover .plan-top {
+  border-top: 8px solid #93a5ff;
+}
+
+.plan-top {
+  padding: 60px 30px 30px 30px;
+  transition: 0.3s;
+  border-top: 8px solid transparent;
+}
+
+.plan-img {
+}
+
+.plan-title {
+  font-family: "Nunito Bold";
+}
+
+.plan-description {
+  line-height: 28px;
+}
+
+.plan-bottom {
+  border-top: 1px solid #ebebeb;
+  padding: 30px 0;
+  transition: 0.3s;
+  height: 128px;
+  overflow: hidden;
+}
+
+.plan-price {
+  font-size: 30px;
+  margin-top: 19px;
+}
+
+.plan-btn {
+  color: #93a5ff;
+  background-color: #f7f8ff;
+  font-family: "Nunito Bold";
+  display: block;
+  width: 186px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.plan-price small {
+  font-size: 14px;
+}
+
+.plan-btn i {
+  margin-left: 10px;
+}
+
 /* ============================== start header ============================== */
